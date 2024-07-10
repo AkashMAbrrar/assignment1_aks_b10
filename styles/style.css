@@ -36,7 +36,7 @@ nav li a {
 }
 /* here I end nav bar styles */
 .top_banner {
-  background-image: url("/assets/Hero-bg.png");
+  background-image: url("../assets/Hero-bg.png");
   background-repeat: no-repeat;
   width: 1500px;
   height: 100vh;
@@ -87,6 +87,24 @@ a {
 }
 
 /* codding challenge section start from here */
+.dev_title {
+  color: rgb(13, 19, 33);
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 37px;
+  letter-spacing: 0%;
+  text-align: center;
+  padding: 20px;
+}
+.dev_title > p {
+  display: inline;
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+}
 .codding_challenge1 {
   display: flex;
   justify-content: center;
@@ -124,6 +142,13 @@ a {
   box-sizing: border-box;
   border: 1px solid rgb(13, 19, 33);
   opacity: 0.7;
-
   color: black;
+}
+.codding_challenge2 {
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+  align-items: end;
+  margin-top: 60px;
+  padding: 48px;
 }
