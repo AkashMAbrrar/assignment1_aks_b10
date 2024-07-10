@@ -37,7 +37,7 @@ nav li a {
 /* here I end nav bar styles */
 .top_banner {
   background-image: url("/assets/Hero-bg.png");
-  /* background-repeat: no-repeat;
+  background-repeat: no-repeat;
   width: 1500px;
   height: 100vh;
   left: 0;
@@ -45,14 +45,6 @@ nav li a {
   background-size: cover;
   background-position: center;
   margin: auto;
-*/
-  position: absolute;
-  width: 1500px;
-  height: 652px;
-  left: 190px;
-  right: 0;
-  top: 131px;
-  bottom: 4462px;
 }
 
 .top_info {
@@ -71,11 +63,11 @@ nav li a {
 .contact_btn {
   text-decoration: none;
   padding: 21px 24px 21px 24px;
-  margin: 32px 0;
+  /* margin: 32px 0; */
   border-radius: 8px;
   background: rgb(13, 19, 33);
 }
-.headning_main {
+.heading_main {
   font-size: 60px;
   text-align: center;
 }
@@ -83,4 +75,55 @@ a {
   text-decoration: none;
   color: aliceblue;
   font-size: 18px;
+}
+/* development section start from here */
+.dev_section {
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.02);
+  width: 1200px;
+  height: 650px;
+  margin: auto;
+  margin-top: 80px;
+}
+
+/* codding challenge section start from here */
+.codding_challenge1 {
+  display: flex;
+  justify-content: center;
+  gap: 20;
+  align-items: center;
+  margin-top: 60px;
+  padding: 48px;
+}
+.codeImg1 img {
+  width: 200px;
+}
+.codding_info1 > h2 {
+  color: rgba(13, 19, 33, 0.7);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.codding_info1 > h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.codding_challenge1 {
+  border-radius: 16px;
+  padding: 48px;
+  background: linear-gradient(
+    90deg,
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+
+.learnMore_1 {
+  box-sizing: border-box;
+  border: 1px solid rgb(13, 19, 33);
+  opacity: 0.7;
+
+  color: black;
 }
