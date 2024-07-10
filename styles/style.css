@@ -27,6 +27,7 @@ nav ul li {
   border-radius: 8px;
   opacity: 0.8;
 }
+
 nav li a {
   text-decoration: none;
   font-size: bold;
@@ -34,3 +35,52 @@ nav li a {
   color: black;
 }
 /* here I end nav bar styles */
+.top_banner {
+  background-image: url("/assets/Hero-bg.png");
+  /* background-repeat: no-repeat;
+  width: 1500px;
+  height: 100vh;
+  left: 0;
+  right: 0;
+  background-size: cover;
+  background-position: center;
+  margin: auto;
+*/
+  position: absolute;
+  width: 1500px;
+  height: 652px;
+  left: 190px;
+  right: 0;
+  top: 131px;
+  bottom: 4462px;
+}
+
+.top_info {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+  margin: 30px 40px;
+  padding: 20px 30px;
+  align-items: center;
+}
+.top_info p {
+  font-size: 18px;
+  text-align: center;
+}
+.contact_btn {
+  text-decoration: none;
+  padding: 21px 24px 21px 24px;
+  margin: 32px 0;
+  border-radius: 8px;
+  background: rgb(13, 19, 33);
+}
+.headning_main {
+  font-size: 60px;
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 18px;
+}
